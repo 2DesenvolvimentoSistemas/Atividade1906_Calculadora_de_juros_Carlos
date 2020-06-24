@@ -44,6 +44,7 @@ public class JanelaCalculadoraJuros extends javax.swing.JFrame {
         lblResultado = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Calculadora de Juros 2.0");
         setBackground(new java.awt.Color(0, 0, 0));
 
         jPanel3.setBackground(new java.awt.Color(255, 153, 0));
@@ -188,6 +189,7 @@ public class JanelaCalculadoraJuros extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtTaxaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtTaxaActionPerformed
